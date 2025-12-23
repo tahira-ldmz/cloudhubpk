@@ -1,0 +1,26 @@
+body {
+    background: #0f2027;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #00adb5;
+    padding: 20px;
+    margin: 15px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.card:hover {
+    background: #028090;
+}
